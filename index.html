@@ -7,6 +7,12 @@
 
     <!-- Main title of the application page displayed on the browser tab -->
     <title>Particle rain</title>
+
+    <!-- Application global and general layout styling -->
+    <link rel="stylesheet" href="styles_layouts/global_layout.css">
+
+    <!-- Application particle canvas styling -->
+    <link rel="stylesheet" href="styles_layouts/particle_canvas_layout.css">
 </head>
 
 <body>
@@ -14,7 +20,28 @@
     <div class="application_title">Particle rain</div>
 
     <!-- Global container to integrate the application visual interactions -->
-    <div class="global_container"></div>
+    <div class="global_container">
+
+        <!-- Container to integrate the particle canvas rendering -->
+        <div class="canvas_container">
+            <canvas id="particle_canvas"></canvas>
+        </div>
+
+        <!-- Application footer dedicated space, for credits and complementary information -->
+        <div class="application_footer">
+            This application was built only for fun and for personal experiment.
+            This is a realization of <b><i>Quentin VINCENOT</i></b>.<br />
+            (PS: Note that this was highly inspired from <a href="https://www.youtube.com/watch?v=nrJh8-Ixnu8" target="_blank">Franks laboratory</a> tutorial,
+            high respect and thanks reserved to him and its great video.)
+        </div>
+
+    </div>
+
+    <!-- Import the specific script to define particles behaviour -->
+    <script type="text/javascript" src="scripts_data/particle_data.js"></script>
+    
+    <!-- Import the specific script to define the canvas content and logic -->
+    <script type="text/javascript" src="scripts_data/canvas_logic.js"></script>
 </body>
 
 </html>

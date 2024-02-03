@@ -1,0 +1,62 @@
+/*--------------------------------------------------------------------------------
+----- Global page configuration
+--------------------------------------------------------------------------------*/
+
+/* Import the font resource to use Roboto */
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,700&display=swap');
+
+/* Configure the HTML body to be restricted to a centered fixe-sized zone of the page */
+body {
+    width: 800px;
+    margin: auto;
+}
+
+/*--------------------------------------------------------------------------------
+----- Application title & and global containers configuration
+--------------------------------------------------------------------------------*/
+
+/* Configure the application title with a dedicated colored/sized/bordered zone */
+.application_title {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+/* Configure the global container with a dedicated size/margin */
+.global_container {
+    width: 800px;
+    height: 800px;
+    margin-top: 5px;
+}
+
+/*--------------------------------------------------------------------------------
+----- Canvas & application footer containers
+--------------------------------------------------------------------------------*/
+
+/* Configure the application title with a dedicated styled/bordered zone */
+.canvas_container {
+    width: 800px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    margin: auto;
+}
+
+/* Configure the application footer layout with a dedicated colored/sized/bordered zone */
+.application_footer {
+    height: 25px;
+    margin-top: 5px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}

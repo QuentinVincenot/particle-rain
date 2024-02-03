@@ -1,0 +1,10 @@
+#particle_canvas {
+    width: 700px;
+    height: 500px;
+    display: block;
+    margin: 5px auto;
+    padding: 0;
+    background-color: white;
+    border: solid black 1px;
+}
+
