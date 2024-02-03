@@ -1,3 +1,17 @@
+/*--------------------------------------------------------------------------------
+----- Canvas container and element configuration
+--------------------------------------------------------------------------------*/
+
+/* Configure the application title with a dedicated styled/bordered zone */
+.canvas_container {
+    width: 798px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    margin: auto;
+}
+
+/* Configure the specific canvas aspect with dimensions and borders */
 #particle_canvas {
     width: 700px;
     height: 500px;
@@ -7,4 +21,3 @@
     background-color: white;
     border: solid black 1px;
 }
-

@@ -9,6 +9,7 @@ class Particle {
     static MIN_DIRECTION = -1; static MAX_DIRECTION = 1;
     static PARTICLE_COLORS = ['blue', 'green', 'red', 'yellow', 'orange', 'purple'];
 
+    
     /* Particle constructor initialize the particle and set its properties */
     constructor(x, y, canvas_width, canvas_height) {
         // Initialize and store the particle starting position and size

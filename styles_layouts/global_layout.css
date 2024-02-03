@@ -12,7 +12,7 @@ body {
 }
 
 /*--------------------------------------------------------------------------------
------ Application title & and global containers configuration
+----- Application title, global and application footer containers configuration
 --------------------------------------------------------------------------------*/
 
 /* Configure the application title with a dedicated colored/sized/bordered zone */
@@ -33,19 +33,6 @@ body {
     width: 800px;
     height: 800px;
     margin-top: 5px;
-}
-
-/*--------------------------------------------------------------------------------
------ Canvas & application footer containers
---------------------------------------------------------------------------------*/
-
-/* Configure the application title with a dedicated styled/bordered zone */
-.canvas_container {
-    width: 800px;
-    background-color: #f9f9f9;
-    border: 1px solid #ccc;
-    border-radius: 12px;
-    margin: auto;
 }
 
 /* Configure the application footer layout with a dedicated colored/sized/bordered zone */
